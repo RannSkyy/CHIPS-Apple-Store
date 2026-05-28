@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Brand colors matching the CHIPS Kuwait aesthetic */
+  --color-brand-primary: #0F172A; /* Deep slate */
+  --color-brand-teal: #0891B2; /* Vibrant teal used in buttons, indicators, and details */
+  --color-brand-teal-dark: #0E7490;
+  --color-brand-blue-bg: #FCFDFE; /* Soft off-white */
+}
+
+/* Custom scrollbar for horizontal categories or slider scroll */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

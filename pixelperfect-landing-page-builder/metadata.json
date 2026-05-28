@@ -1,0 +1,6 @@
+{
+  "name": "CHIPS Store",
+  "description": "An elegant, premium, and fully responsive e-commerce landing page for CHIPS - Kuwait's ultimate premium gadget store, featuring hot picks, collections, store directions, and customer support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
